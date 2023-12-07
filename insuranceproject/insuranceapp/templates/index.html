@@ -1,0 +1,53 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Insurance Prediction</title>
+</head>
+
+<body>
+
+    <h2>Check Your Insurance Charges</h2>
+    <form action="result" method="post">
+    {% csrf_token %}
+        <label for="age" class="labels" >Age:</label>
+        <input   type="number" id="age" name="age" required class="inputs">
+        <br>
+
+        <label for="sex" class="labels">Sex:</label>
+        <select id="sex" name="sex" required>
+            <option value="0">Male</option>
+            <option value="1">Female</option>
+        </select>
+        <br>
+
+        <label for="bmi" class="labels">BMI (Body Mass Index):</label>
+        <input type="number" id="bmi" name="bmi" step="0.2" required class="inputs">
+        <br>
+
+        <label for="children" class="labels">Number of Children:</label>
+        <input type="number" id="children" name="children" required class="inputs">
+        <br>
+        <label for="smoker" class="labels">Smoker:</label>
+        <select id="smoker" name="smoker" required>
+            <option value="1">Yes</option>
+            <option value="0">No</option>
+        </select>
+        <br>
+        
+        
+        
+       
+
+        <input type="submit" value="Submit" class="inputs">
+    </form>
+
+
+
+</body>
+
+</html>

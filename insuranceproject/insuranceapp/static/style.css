@@ -1,0 +1,65 @@
+h2{
+    color: #05396B;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 34px;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #5CDB94;
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+form {
+    max-width: 400px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
+}
+
+.labels {
+    display: block;
+    margin-bottom: 10px; 
+    color: #333;
+    font: bold;
+    
+}
+
+.inputs, select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    background-color: #FFFFFF;
+    border: 1px solid ;
+    border-radius: 4px;
+    font: bold;
+    
+}
+
+input[type="submit"] {
+    background-color: #05396B;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #59D48F;
+}
+
+/* Add some spacing between elements for better readability */
+br {
+    margin-bottom: 10px;
+}
+.checkbox{
+    padding: 60px;
+}

@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #5CDB94;
+    margin: 0;
+    padding: 0;
+}
+h2{
+    color: #05396B;
+    text-align: center;
+    margin-top: 200px;
+    font-size: 34px;
+}
+.goback-button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 15px;
+    margin-left: 625px;
+    font-size: 16px;
+    text-decoration: none;
+    background-color: #05396B;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.goback-button:hover {
+    background-color: #59D48F;
+}
